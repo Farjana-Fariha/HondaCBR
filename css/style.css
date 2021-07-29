@@ -22,7 +22,7 @@ button{
    color: #E76F51;
    border-color: #E76F51;
    background: white;
-   border-radius: 5px;
+   border-radius: 0.3125rem;
 }
 .latest-btn:hover{
     color: white;
@@ -32,11 +32,18 @@ button{
 .client-says{
     color: #E76F51;
 }
+/* question css */
+.accordion-body p {
+	color: #7E848C;
+}
+.accordion-item h2 button {
+	font-size: 1.25rem;
+}
 /* footer area */
 .footer-text{
     text-decoration: none;
     list-style: none;
 }
 .footer-area{
-    height: 280px;
+    background: #0B0D17;
 }
