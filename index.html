@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,16 +11,343 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- fabicon link -->
     <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <title>Honda CBR</title>
 </head>
-<body> 
+
+<body>
     <header>
-        
+        <!-- banner section -->
+        <section class="banner-area banner-bg">
+            <div class="container">
+                <div class="row p-5">
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div class="banner-txt text-light">
+                            <p>Computer-controlled digital transistorized with electronic</p>
+                            <h1 class="fw-bold">Honda CBR 300R</h1>
+                            <p class="py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                                nostrud amet.</p>
+
+                            <!-- Button trigger modal -->
+                            <button type="button" class="py-2 px-5 fw-bold text-light text-capitalize border-0"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                purchase
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h1 class="fw-bolder text-primary text-center text-uppercase">welcome</h1>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="banner-img ps-4">
+                            <img class="img-fluid" src="images/header-bike.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
+        <!-- featured bike area -->
+        <section class="featured-area py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center my-5">
+                        <div class="feature-txt">
+                            <h1 class="fw-bold text-dark text-capitalize">Fetured Bikes 2021</h1>
+                            <p class="text-center header-txt">Best bike collection</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="feature-img w-75">
+                            <img class="w-100" src="images/feature-bike.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-img w-75">
+                            <img class="w-100" src="images/feature-bike.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-img w-75">
+                            <img class="w-100" src="images/feature-bike.jpg" alt="">
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </section>
+        <!-- letest news area -->
+        <section class="featured-area py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center my-5">
+                        <div class="feature-txt">
+                            <h1 class="fw-bold text-dark text-capitalize">latest news</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-4">
+                        <div class="each-article shadow-sm p-3">
+                            <div class="latest-img">
+                                <img class="img-fluid" src="images/bike-1.png" alt="">
+                            </div>
+                            <article class="latest-txt">
+                                <h3 class="fw-bold text-dark mt-4">Ducati XDIAVEL S-73</h3>
+                                <p class="mb-5 lh-base">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consectetur quae
+                                    alias
+                                    excepturi officiis neque ipsum ex harum voluptate culpa, quas,
+                                </p>
+                                <div class="latest-button">
+                                    <button type="button"
+                                        class="latest-btn py-2 px-3 fw-bold text-capitalize border-1 mb-3">read
+                                        more</button>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="each-article shadow-sm p-3">
+                            <div class="latest-img">
+                                <img class="img-fluid" src="images/bike-2.png" alt="">
+                            </div>
+                            <article class="latest-txt">
+                                <h3 class="fw-bold text-dark mt-4">Ducati XDIAVEL S-73</h3>
+                                <p class="mb-5 lh-base">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consectetur quae
+                                    alias
+                                    excepturi officiis neque ipsum ex harum voluptate culpa, quas,
+                                </p>
+                                <div class="latest-button">
+                                    <button type="button"
+                                        class="latest-btn py-2 px-3 fw-bold text-capitalize border-1 mb-3">read
+                                        more</button>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="each-article shadow-sm p-3">
+                            <div class="latest-img">
+                                <img class="img-fluid" src="images/bike-3.png" alt="">
+                            </div>
+                            <article class="latest-txt">
+                                <h3 class="fw-bold text-dark mt-4">Ducati XDIAVEL S-73</h3>
+                                <p class="mb-5 lh-base">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consectetur quae
+                                    alias
+                                    excepturi officiis neque ipsum ex harum voluptate culpa, quas,
+                                </p>
+                                <div class="latest-button">
+                                    <button type="button"
+                                        class="latest-btn py-2 px-3 fw-bold text-capitalize border-1 mb-3">read
+                                        more</button>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- client area -->
+        <section class="client-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="client-header">
+                            <h1 class="fw-bold text-capitalize text-center"><span class="text-dark">happy</span><span
+                                    class="client-says"> client says</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="client-boxess d-flex justify-content-center my-5 py-5">
+                        <!-- each-client-box -->
+                        <div class="col-md-3">
+                            <div class="client-box text-center border-1 shadow-sm py-3">
+                                <div class="client-img">
+                                    <img class="w-50 h-50 img-fluid rounded-circle" src="images/user-1.png" alt="">
+                                </div>
+                                <div class="client-speech ">
+                                    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                                        exercitationem minima
+                                        minus vero harum quisquam suscipit illum .</p>
+                                    <p class="text-warning"><i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </p>
+                                    <h6 class="text-primary fw-bold">Regina Miles</h6>
+                                    <h6 class="text-dark fw-bold">Banker</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- each-client-box -->
+                        <div class="col-md-3">
+                            <div class="client-box text-center border-1 shadow-sm py-3">
+                                <div class="client-img">
+                                    <img class="w-50 h-50 img-fluid rounded-circle" src="images/user-2.png" alt="">
+                                </div>
+                                <div class="client-speech ">
+                                    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                                        exercitationem minima
+                                        minus vero harum quisquam suscipit illum .</p>
+                                    <p class="text-warning"><i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </p>
+                                    <h6 class="text-primary fw-bold">Regina Miles</h6>
+                                    <h6 class="text-dark fw-bold">Banker</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- each-client-box -->
+                        <div class="col-md-3">
+                            <div class="client-box text-center border-1 shadow-sm py-3">
+                                <div class="client-img">
+                                    <img class="w-50 h-50 img-fluid rounded-circle" src="images/user-3.png" alt="">
+                                </div>
+                                <div class="client-speech ">
+                                    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                                        exercitationem minima
+                                        minus vero harum quisquam suscipit illum .</p>
+                                    <p class="text-warning"><i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </p>
+                                    <h6 class="text-primary fw-bold">Regina Miles</h6>
+                                    <h6 class="text-dark fw-bold">Banker</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- question area -->
+        <section class="question-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="client-header">
+                            <h1 class="fw-bold text-capitalize text-center"><span class="text-dark">happy</span><span
+                                    class="client-says"> client says</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                        <div class="col-md-6">
+                            <div class="question-area-img my-5 w-75">
+                                <img class="img-fluid" src="images/faq.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="qsn-To-ans">
+                                <!-- accordion code -->
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            What are the most important things I should
+                                            know about riding a bike?
+                                        </button>
+                                      </h2>
+                                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            How can I tell if my helmet is old and I need a 
+                                            new one?
+                                        </button>
+                                      </h2>
+                                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                            My bike has been in storage is it safe to ride?
+                                        </button>
+                                      </h2>
+                                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</div>
+                                      </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                            What rules should I follow when riding my bike?
+                                        </button>
+                                      </h2>
+                                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
-    
+    <footer>
+        <section class="footer-area bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <p class="text-light mt-5"><span>Download</span><span class="ms-4">License</span></p>
+                        <div class="footer-menu">
+                            <ul class="d-flex text-light m-0 p-0">
+                                <li class="footer-text pe-3">Home</li>
+                                <li class="footer-text pe-3">Pricing</li>
+                                <li class="footer-text pe-3">Features</li>
+                                <li class="footer-text pe-3">Careers</li>
+                                <li class="footer-text pe-3">Help</li>
+                            </ul>
+                            <p class="mt-3 text-light">copywright</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

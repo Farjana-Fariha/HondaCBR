@@ -1,0 +1,42 @@
+/* banner-area css */
+.banner-bg{
+    background: #264653;
+}
+button{
+    background: #E76F51;
+}
+
+/* feature-bike css */
+.header-txt{
+    color: #E76F51;
+    font-weight: 600;
+}
+.feature-img img{
+    filter: grayscale(1);
+}
+.feature-img img:hover{
+    filter: grayscale(0);
+}
+/* latest area css */
+.latest-btn{
+   color: #E76F51;
+   border-color: #E76F51;
+   background: white;
+   border-radius: 5px;
+}
+.latest-btn:hover{
+    color: white;
+    background: #E76F51;
+}
+/* client says css */
+.client-says{
+    color: #E76F51;
+}
+/* footer area */
+.footer-text{
+    text-decoration: none;
+    list-style: none;
+}
+.footer-area{
+    height: 280px;
+}
