@@ -47,3 +47,15 @@ button{
 .footer-area{
     background: #0B0D17;
 }
+/* work proccess css */
+.work-proccess-area{
+    
+}
+.proccess-icon i{
+    color: #E76F51
+}
+.proccess:hover .proccess-icon i{
+    background: #E76F51;
+    transition: 1s;
+    color: white;
+}
